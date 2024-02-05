@@ -1,0 +1,22 @@
+{
+	"name": "sampledatacsv1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage_sink1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "outputpra21"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
