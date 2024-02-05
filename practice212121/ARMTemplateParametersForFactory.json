@@ -8,11 +8,17 @@
 		"AzureBlobStorage_sink1_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorage_sink1_accountKey": {
+			"value": ""
+		},
 		"SqlServer1_connectionString": {
 			"value": ""
 		},
 		"SqlServer_source1_connectionString": {
 			"value": ""
+		},
+		"AzureDataLakeStorage_sink1_properties_typeProperties_url": {
+			"value": "https://datalakepractice2121.dfs.core.windows.net/"
 		}
 	}
 }
