@@ -23,7 +23,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -49,7 +49,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "sampledatacsv1",
+						"referenceName": "sampledatagen2",
 						"type": "DatasetReference"
 					}
 				]
