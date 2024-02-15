@@ -1,10 +1,6 @@
 {
 	"name": "sampledatagen2",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage_sink1",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
